@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1W9LHCTYR"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-B1W9LHCTYR');
+            </script>
+    <!-- Hotjar Tracking Code for https://katiestruk.github.io/UX_UI_HW_18/index.html -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:3104424,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        
+    </head>
+
+    <body>
+        <nav id="navBar">
+            <a class="logo" href="./index.html"> <img class="logo2" src="./images/Name_logo.png"></a>
+            <div class="navigation">
+                <p>
+                    <a href="#top">Portfolio</a></p>
+                <p>
+                    <a href="./html/aboutme.html">About</a></p>
+                <p>
+                    <a href="./html/resume.html">Resume</a></p>
+            </div>
+            <button onclick="parent.location='./html/contact.html'" type="button" id="buttonTop">Contact</button>
+        </nav>
+
+
+        <section id="heroImg">
+            <div class="heroImage">
+                <img src="./images/pixel_portrait_gif.gif">
+            </div>
+            <div class="heroContent">
+                <header>
+                    <h1 class="heroHeader">Hey Hey!</h1>
+                </header>
+                <p class="heroText">I'm a UX designer transitioning from a career in teaching graphic design from which I bring strong communication skills. I love discovering ways to simplify the complex into more useful and delightful designs.  </p>
+            </div>
+        </section>
+        
+        <hr class="sectionLine">
+        
+       
+        <!-- My Work Section Constructed using CSS Grid -->
+        <section class="myWorkPortfolio">
+            <a><h1 id="myWork" class="title">My Work</h1></a>
+            <div class="arrow bounce">
+                <a><img id="arrowSize" src="./images/image-removebg-preview-removebg-preview.png"></a>
+            </div>
+            <div class="workGrid">
+                <div id="imgAikikai">
+                    <a href="./html/casestudy1.html">
+                        <img class="workImages" src="./images/case_study_1_Nashville_Aikikai.png">
+                    </a>
+                </div>
+                <div id="textAikikai">
+                    <h3>Nashville Aikikai</h3>
+                    <p>Bridging the gap between stakeholders and new users with a fresh redesign. </p>
+                        <button class="" onclick="parent.location='./html/casestudy1.html'" type="button" id="buttonTop">Check It Out</button>
+                    <hr>
+                </div>
+                <div id="textEdu">
+                    <h3>Department of Education</h3>
+                    <p>Redesigning functional navigation with approachable accessibility.</p>
+                    <button class="" onclick="parent.location='#'" type="button" id="buttonTop">Check It Out</button>
+                    <hr>
+                </div>
+                <div  id="imgEdu">
+                    <img class="workImages" src="./images/case_study_2_dept_of_edu.png">
+                </div>
+                <div  id="imgWeBoard">
+                    <img class="workImages" src="./images/case_study_3_weboard_app.png">
+                </div>
+                <div id="textWeBoard">
+                    <h3>WeBoard App</h3>
+                    <p>Reimaging a moodboard space for collaborative work.</p>
+                    <button class="" onclick="parent.location='#'" type="button" id="buttonTop">Check It Out</button>
+                    <hr>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact yellowBack">
+                <div class="connectText center">
+                <h1 class="letsConnect"> Let's Work Together</h1>
+                <p class="textConnect"> I can design creative solutions for your next project.</p>
+                </div>
+                <section class="popUpButton">
+                    <a class="open-button" popup-open="popup-1" href="javascript:void(0)"> Email Me</a>
+                         
+                        <div class="popup" popup-name="popup-1">
+                            <div class="popup-content">
+                            <h2>Email Me </h2>
+                            <div class="container">
+                                <form action="/action_page.php">
+                                  <label for="fname">First Name</label>
+                                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                              
+                                  <label for="lname">Last Name</label>
+                                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                              
+                              
+                                  <label for="subject">Subject</label>
+                                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                              
+                                  <input type="submit" value="Submit">
+                                </form>
+                              </div>
+                        <a class="close-button" popup-close="popup-1" href="javascript:void(0)">x</a>
+                            </div>
+                        </div>  
+                    </section>
+        </section>
+
+        
+
+        <footer>
+            <ul>
+                <li class="blockTitle">Social</li>
+                <li class="block">
+                    <a href="https://www.instagram.com/katie_struk/">Instagram</a>
+                <li class="block">
+                    <a href="https://www.linkedin.com/in/katie-struk-961507230/">LinkedIn</a>
+            </ul>
+            <ul>    
+                <li style="padding-top:2em" class="block copyright">Copyright- Katie Struk 2022</li>
+            </ul>
+            <ul>
+                <li class="block blockTitle">Currently In</li>
+                <li class="block">Denver, CO</li>
+            </ul>
+        </footer>
+
+    </body>
+    <script src="./js/index.js"></script>
+</html>
