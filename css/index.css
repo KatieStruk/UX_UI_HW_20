@@ -874,3 +874,40 @@ input[type=text], select, textarea {
     padding-bottom:30px;
     height:800px;
   }
+
+
+  /*bootstrap edits*/
+.customNav{
+    box-shadow: 0 8px 8px 0 rgba(165, 165, 165, 0.24);
+}
+.btn{
+    background-color:#FFA927;
+    border: 4px solid #FFA927;
+    Color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+
+.jumbotron{
+    background-color:#FFCF5A;
+}
+
+.container{
+    background-color:#FFCF5A;
+}
+
+.spacing{
+    margin-top: auto;
+  margin-bottom: 75px !important;
+}
+.heroImageBoot{
+    width:75%;
+
+}
