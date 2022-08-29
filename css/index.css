@@ -895,11 +895,7 @@ input[type=text], select, textarea {
     margin-right: 0 !important;
   }
 
-.jumbotron{
-    background-color:#FFCF5A;
-}
-
-.container{
+.yellow{
     background-color:#FFCF5A;
 }
 
@@ -910,4 +906,16 @@ input[type=text], select, textarea {
 .heroImageBoot{
     width:75%;
 
+}
+.white{
+    background-color: white;
+}
+.textBox{
+    border-radius:15px;
+    padding:20px;
+    margin:15px;
+    text-align: center;
+}
+.persona{
+    width:75%;
 }
