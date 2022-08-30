@@ -917,5 +917,18 @@ input[type=text], select, textarea {
     text-align: center;
 }
 .persona{
-    width:75%;
+    height:400px;
+}
+.bootImg{
+    height:300px;
+}
+.sectionPad{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.personaSml{
+    height:150px;
+}
+.personaSml2{
+    height:225px;
 }
