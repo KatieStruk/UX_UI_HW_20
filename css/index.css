@@ -889,11 +889,16 @@ input[type=text], select, textarea {
     font-size: 16px;
     border-radius: 8px;
 }
-
+.navLogo{
+    margin-left:10%;
+}
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
-  }
+}
+.navItems{
+    margin-right:10%;
+}
 
 .yellow{
     background-color:#FFCF5A;
@@ -904,7 +909,8 @@ input[type=text], select, textarea {
   margin-bottom: 75px !important;
 }
 .heroImageBoot{
-    width:75%;
+    width: 100%;
+    align-items: flex-end;
 
 }
 .white{
@@ -931,4 +937,22 @@ input[type=text], select, textarea {
 }
 .personaSml2{
     height:225px;
+}
+span{
+    color:#FFA927;
+}
+.heroBoot{
+    margin-left: 5% ;
+    margin-right:5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.centerPic{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.heur{
+    width:100%;
 }
