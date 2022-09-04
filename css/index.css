@@ -889,6 +889,25 @@ input[type=text], select, textarea {
     font-size: 16px;
     border-radius: 8px;
 }
+.btn:hover{
+    background-color:black;
+    color:#FFA927;
+    border-color: black;
+}
+.btn2{
+    background-color:white;
+    border: 4px solid white;
+    Color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.btn2:hover{
+    background-color:black;
+    color:#FFA927;
+    border-color: black;
+}
 .navLogo{
     margin-left:10%;
 }
@@ -970,3 +989,4 @@ span{
 .purple{
     background-color:#736094;
 }
+html { scroll-behavior: smooth;}
