@@ -941,6 +941,8 @@ input[type=text], select, textarea {
 span{
     color:#FFA927;
 }
+
+
 .heroBoot{
     margin-left: 5% ;
     margin-right:5%;
@@ -948,11 +950,23 @@ span{
     margin-top: 5%;
 }
 .centerPic{
-    display: block;
+    display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 .heur{
     width:100%;
+}
+.heur2{
+    height:500px;
+}
+.heur3{
+    height:900px;
+}
+.container p{
+    font: 16px ;
+}
+.purple{
+    background-color:#736094;
 }
