@@ -963,8 +963,8 @@ span{
 
 
 .heroBoot{
-    margin-left: 5% ;
-    margin-right:5%;
+    margin-left: 15% ;
+    margin-right:15%;
     margin-bottom: 5%;
     margin-top: 5%;
 }
@@ -990,3 +990,7 @@ span{
     background-color:#736094;
 }
 html { scroll-behavior: smooth;}
+
+.card{
+    border:none;
+}
